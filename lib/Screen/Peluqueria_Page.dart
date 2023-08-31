@@ -153,12 +153,13 @@ class PeluqueriaPageState extends State<PeluqueriaPage> {
       peluquerias.add(
         Container(
           child: Card(
-            color: randomColor,
+            //color: randomColor,
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(40.0),
+              side: BorderSide(color: randomColor, width: 2.0),
             ),
             elevation: 10,
-            shadowColor: Colors.amberAccent,
+            shadowColor: randomColor,
             child: Padding(
               padding: const EdgeInsets.all(12.0),
               child: Column(
