@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       // Application name
-      title: 'App de Gifs',
+      title: 'App de Peluqueria',
       // Application theme data, you can set the colors for the application as
       // you want
       theme: ThemeData(
